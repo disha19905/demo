@@ -2,122 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>All Elements Sample Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cozy Home Furniture</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather&family=Dancing+Script&display=swap">
+<script src="script.js"></script>
 </head>
 <body>
+
   <header>
-    <nav class="navbar">
-      <h1>My Website</h1>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#media">Media</a></li>
-        <li><a href="#form">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="logo">CozyHome</div>
+
+      <nav class="nav-links">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Shop</a>
+          <a href="#">Contact Us</a>
+      </nav>
   </header>
 
-  <main>
-    <section>
-      <h2>Headings & Text Content</h2>
-      <h3>This is a Heading H3</h3>
-      <p>Welcome to the <strong>sample website</strong> showcasing <em>HTML5 elements</em>. <br> It demonstrates everything from headings to flexbox layout!</p>
-    </section>
+  <section class="hero">
+    <h1>Bring Warmth to Your Home</h1>
+    <p>Explore our cozy collection of handcrafted furniture</p>
+    <button onclick="exploreProducts()">Explore Now</button>
+  </section>
 
-    <section>
-      <h2>Lists</h2>
-      <h4>Unordered List</h4>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-      </ul>
-      <h4>Ordered List</h4>
-      <ol>
-        <li>Plan</li>
-        <li>Design</li>
-        <li>Build</li>
-      </ol>
-    </section>
+  <section class="categories">
+    <h2>Shop by Room</h2>
+    <div class="category-grid">
+      <div class="category-card">Living Room</div>
+      <div class="category-card">Bedroom</div>
+      <div class="category-card">Dining</div>
+    </div>
+  </section>
 
-    <section id="media">
-      <h2>Images, Video & Audio</h2>
-      <img src="" alt="Placeholder image of size 200x200" />
-      <video controls width="320">
-        <source src="" type="video/mp4" />
-        Your browser does not support the video tag.
-        <a href="" download>Download Video</a>
-      </video>
-      <audio controls>
-        <source src="sample.mp3" type="audio/mp3" />
-        Your browser does not support the audio element.
-        <a href="sample.mp3" download>Download Audio</a>
-      </audio>
-    </section>
-
-    <section>
-      <h2>Table Example</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Role</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Alice</td>
-            <td>25</td>
-            <td>Designer</td>
-          </tr>
-          <tr>
-            <td>Bob</td>
-            <td>30</td>
-            <td>Developer</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-
-    <section id="form">
-      <h2>Contact Form</h2>
-      <form>
-        <fieldset>
-          <legend>Contact Information</legend>
-          
-          <label for="name">Name:</label><br />
-          <input id="name" type="text" placeholder="Your name" required /><br />
-
-          <label for="email">Email:</label><br />
-          <input id="email" type="email" placeholder="Your email" required /><br />
-
-          <label for="message">Message:</label><br />
-          <textarea id="message" rows="4" placeholder="Your message"></textarea><br />
-
-          <label for="service">Service:</label>
-          <select id="service">
-            <option>Web Design</option>
-            <option>Development</option>
-          </select><br />
-
-          <button type="submit">Submit</button>
-        </fieldset>
-      </form>
-    </section>
-
-    <section>
-      <h2>Flexbox Layout Example</h2>
-      <div class="flex-container">
-        <div class="box">Box 1</div>
-        <div class="box">Box 2</div>
-        <div class="box">Box 3</div>
-      </div>
-    </section>
-  </main>
+  <section class="products" id="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+    </div>
+  </section>
 
   <footer>
-    <p>&copy; 2025 Sample HTML Page</p>
+    <p>&copy; 2025 CozyHome Furniture. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
