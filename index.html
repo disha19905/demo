@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>All Elements Sample Page</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1>My Website</h1>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#form">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Headings & Text Content</h2>
+      <h3>This is a Heading H3</h3>
+      <p>Welcome to the <strong>sample website</strong> showcasing <em>HTML5 elements</em>. <br> It demonstrates everything from headings to flexbox layout!</p>
+    </section>
+
+    <section>
+      <h2>Lists</h2>
+      <h4>Unordered List</h4>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+      <h4>Ordered List</h4>
+      <ol>
+        <li>Plan</li>
+        <li>Design</li>
+        <li>Build</li>
+      </ol>
+    </section>
+
+    <section id="media">
+      <h2>Images, Video & Audio</h2>
+      <img src="" alt="Placeholder image of size 200x200" />
+      <video controls width="320">
+        <source src="" type="video/mp4" />
+        Your browser does not support the video tag.
+        <a href="" download>Download Video</a>
+      </video>
+      <audio controls>
+        <source src="sample.mp3" type="audio/mp3" />
+        Your browser does not support the audio element.
+        <a href="sample.mp3" download>Download Audio</a>
+      </audio>
+    </section>
+
+    <section>
+      <h2>Table Example</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Role</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Alice</td>
+            <td>25</td>
+            <td>Designer</td>
+          </tr>
+          <tr>
+            <td>Bob</td>
+            <td>30</td>
+            <td>Developer</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="form">
+      <h2>Contact Form</h2>
+      <form>
+        <fieldset>
+          <legend>Contact Information</legend>
+          
+          <label for="name">Name:</label><br />
+          <input id="name" type="text" placeholder="Your name" required /><br />
+
+          <label for="email">Email:</label><br />
+          <input id="email" type="email" placeholder="Your email" required /><br />
+
+          <label for="message">Message:</label><br />
+          <textarea id="message" rows="4" placeholder="Your message"></textarea><br />
+
+          <label for="service">Service:</label>
+          <select id="service">
+            <option>Web Design</option>
+            <option>Development</option>
+          </select><br />
+
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <section>
+      <h2>Flexbox Layout Example</h2>
+      <div class="flex-container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sample HTML Page</p>
+  </footer>
+</body>
+</html>
