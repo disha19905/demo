@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  background-color: #fff8e7;
+  color: #2e4a3b;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8b5e3c;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+header .logo {
+  font-family:  cursive;
+  font-size: 2rem;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.hero {
+  background: url('https://img.freepik.com/free-photo/armchair-green-living-room-with-copy-space_43614-910.jpg?t=st=1746552711~exp=1746556311~hmac=1941960780b4f0cfc6e94144923ba095ccf8010ffba2b455cdfda99e68b52786&w=900') center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero button {
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #2e4a3b;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.categories {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.category-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.category-card {
+  background-color: #f5f5dc;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 150px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.products {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.product-card {
+  background-color: #f5f5dc;
+  width: 200px;
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #8b5e3c;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
